@@ -33,7 +33,7 @@ if len(sys.argv) == 3:
     #Get the users name from the arguments
     name = sys.argv[2]
 else:
-    print("Usage: client.py port name")
+    print("Usage: python3 client.py port name")
 
 #now connect the client socket to the host socket
 s.connect((host, port))
